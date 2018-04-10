@@ -1,0 +1,13 @@
+{
+  "name": "zhh",
+  "version": "0.0.1",
+  "description": "zhh",
+  "main": "app.js",
+  "dependencies": {
+    "@bone/bone-web-ui": "^1.0.0",
+    "@bone/bone-web-ui-dpl": "^1.0.0",
+    "@bone/web": "^0.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}
