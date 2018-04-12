@@ -8,6 +8,9 @@ import Login from "./app/pages/login";
 import NotFound from "./app/pages/not-found";
 import TodoList from "./app/pages/todolist";
 import TodoList1 from "./app/pages/todolist/index1.js";
+import Demo from "./app/pages/todolist/demo.js";
+import Demo1 from "./app/pages/todolist/demo1.js";
+
 
 // 创建App实例
 export default createApp({
@@ -28,6 +31,9 @@ export default createApp({
         },{
             path: "/todo",
             page: TodoList1
+        },{
+            path: "/demo",
+            page: Demo1
         }],
         // routes中路由无法匹配时显示的404页面
         notFound: NotFound
